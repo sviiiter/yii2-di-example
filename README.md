@@ -19,8 +19,8 @@ you can use configure container part of your application's config file instead o
   ````php
   'container' => [
     'definitions' => [
-      'frontend\components\ISimple' => [
-        'class' => 'frontend\components\Simple',
+      'simple\ISimple' => [
+        'class' => 'simple\Simple',
       ],
     ],
   ]
